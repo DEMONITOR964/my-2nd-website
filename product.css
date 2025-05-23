@@ -1,0 +1,124 @@
+body{
+    padding-bottom:1000px;
+    background:linear-gradient(to bottom, orange,rgb(255, 171, 185),black);
+    
+}
+
+
+.container{
+    background:linear-gradient(to bottom, orange,green,rgb(132, 159, 159),black);
+        background:linear-gradient(to left, orange,lightblue);
+
+    margin:0 auto;
+    height:880px;
+    width:1200px;
+    border-radius:7px;
+    padding-top:20px;
+    position:relative;
+}
+.header{
+    display:grid;
+    grid-template-columns: 400px 100px;
+    height:80px;
+    border-radius:10px;
+    width:1190px;
+    margin-left:5px;
+    background-color: rgb(211, 208, 208);
+    align-items: center;
+    column-gap:580px;
+  
+}
+
+.left-section{
+    margin-left:50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: end;
+    white-space: nowrap;
+    column-gap:35px;
+    font-family:Roboto;
+    font-weight:700;
+    color:black;
+    cursor:pointer;
+    
+}
+.login-button{
+    white-space: nowrap;
+    font-size:16px;
+    height:55px;
+    color:white;
+    background-color: rgb(255, 132, 0);
+    border-style:none;
+    border-radius:10px;
+    position:relative;
+    padding-left:40px;
+    padding-right:15px;
+        transition:0.4s;
+font-family:Roboto;
+font-weight:550;
+}
+
+.google-icon{
+    width:30px;
+    position:absolute;
+    left:07px;
+    border-radius:50%;
+    top:13px
+}
+
+.login-button:hover{
+    background-color: rgb(30, 29, 27);
+    transition:0.4s;
+
+    font-weight:bold;
+}
+
+.product-title{
+    margin-left:100px;
+    margin-top:120px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px
+}
+.ad-img{
+    width:525px;
+    height:450px;
+    object-fit:cover;
+    object-position:center;
+border-radius:60px;
+}
+
+.ad-div{
+    margin-left:690px;
+    position:absolute;
+    bottom:150px;
+    left:-35px;
+
+}
+.product-title{
+    display:inline-block;
+}
+.product-properties{
+    display:grid;
+    grid-template-columns: 70px 60px;
+    align-items:center;
+margin-left:110px;
+vertical-align: middle;
+width:fit-content;
+}
+.product-properties img{
+    width:20px;
+    margin:0
+}
+.product-properties h3{
+    margin-bottom:3px;
+    margin-top:0;
+line-height: 45px;
+}
+.ad-price{
+    color:rgb(1, 156, 1);
+    margin-left:320px;
+    margin-top:-190px;
+    font-size:40px;
+    line-height: 70px;
+    
+}
